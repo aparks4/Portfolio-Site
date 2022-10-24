@@ -20,17 +20,22 @@ nav a {
   display: flex;
 }
 .projects-container {
-  height: 90vh;
-  width: 200vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
+  height: 85vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: 3vw;
 }
 .project-card {
   border: solid;
-  height: 44.5vh;
-  width: 66.5vh;
+  height: 41vh;
+  width: 37vw;
+  font-family: 'Space Mono', monospace;
+  margin: .5vh;
 }
 
 

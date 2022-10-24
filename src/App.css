@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 .App {
   text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+h1 {
+  margin-left: .5vw;
 }
 nav {
   display: flex;
@@ -9,7 +13,7 @@ nav {
   align-items: flex-start;
   font-family: 'Space Mono', monospace;
   position: absolute;
-  left: 0;
+  left: 1vw;
   height: 100vh; 
 }
 nav a {
@@ -20,7 +24,7 @@ nav a {
   display: flex;
 }
 .projects-container {
-  height: 85vh;
+  height: 90vh;
   width: 80vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -29,13 +33,24 @@ nav a {
   justify-content: space-around;
   margin-left: auto;
   margin-right: 3vw;
+  margin-top: 1vh;
 }
 .project-card {
   border: solid;
-  height: 41vh;
+  height: 47vh;
   width: 37vw;
   font-family: 'Space Mono', monospace;
   margin: .5vh;
+}
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  border: solid;
+  padding: 5vw;
+  border-radius: 13%;
 }
 
 

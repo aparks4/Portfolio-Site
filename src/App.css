@@ -42,16 +42,30 @@ nav a {
   font-family: 'Space Mono', monospace;
   margin: .5vh;
 }
-.contact-info-container {
+.contact-links-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: auto;
-  border: solid;
-  padding: 5vw;
-  border-radius: 13%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 2vw;
+  width: 10vw;
+  font-size: 5vh;
+  height: 1vw;
+  align-self: flex-end;
+  margin-bottom: 2vh;
 }
+.contact-links-container a:hover {
+  color: pink;
+}
+#about {
+  justify-content: center;
+  align-items: center;
+}
+#about h1 {
+  position: absolute;
+  align-self: flex-start;
+  left: .5vw;
 
+}
 
 

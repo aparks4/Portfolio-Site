@@ -1,11 +1,13 @@
 import Nav from "../components/Nav";
 import ProjectCard from "../components/ProjectCard";
+import ContactLinks from "../components/ContactLinks";
 
 function Projects(props) {
     return (
         <div id='projects'>
             <h1>Projects</h1>
             <Nav />
+            <ContactLinks />
             <div className='projects-container'>
                 <ProjectCard name={'War'} img={'https://i.imgur.com/ZM6e4qM.jpg'} href={'https://aparks4.github.io/War-Browser-Game/'}/>
                 <ProjectCard name={'DB Trippin'} img={'https://i.imgur.com/ZM6e4qM.jpg'} href={'https://arynsgaproject.herokuapp.com/users/login'}/>

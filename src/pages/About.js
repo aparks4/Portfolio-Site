@@ -1,6 +1,6 @@
 import Nav from "../components/Nav";
 import ContactLinks from "../components/ContactLinks";
-import pdf from '../Resume.pdf'
+import Bio from "../components/Bio";
 
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
             <h1>About</h1>
             <Nav />
             <ContactLinks />
-            <a href={pdf} target='_blank' rel='noreferrer'>Check out my resume</a>
+            <Bio />
         </div>
     )
 }

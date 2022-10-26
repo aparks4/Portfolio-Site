@@ -9,10 +9,10 @@ function Projects(props) {
             <Nav />
             <ContactLinks />
             <div className='projects-container'>
-                <ProjectCard name={'War'} img={'https://i.imgur.com/ZM6e4qM.jpg'} href={'https://aparks4.github.io/War-Browser-Game/'}/>
-                <ProjectCard name={'DB Trippin'} img={'https://i.imgur.com/ZM6e4qM.jpg'} href={'https://arynsgaproject.herokuapp.com/users/login'}/>
-                <ProjectCard name={'Incantations for Spotify'} img={'https://i.imgur.com/ZM6e4qM.jpg'} href={'https://632d4dba13263e422f1d773d--prismatic-kangaroo-4608c3.netlify.app/'}/>
-                <ProjectCard name={'Elevation Climbing'} img={'https://i.imgur.com/ZM6e4qM.jpg'} href={'#'}/>
+                <ProjectCard id={'war-card'} name={'War'} href={'https://aparks4.github.io/War-Browser-Game/'} description={'HTML | CSS | JavaScript'}/>
+                <ProjectCard id={'dbtrip-card'} name={'DB Trippin'} href={'https://arynsgaproject.herokuapp.com/users/login'} description={'Express | Node.js | MongoDB | Mongoose'}/>
+                <ProjectCard id={'incantations-card'} name={'Incantations for Spotify'} href={'https://632d4dba13263e422f1d773d--prismatic-kangaroo-4608c3.netlify.app/'} description={'React | Express | Node.js | JWT'} />
+                <ProjectCard id={'elevation-card'} name={'Elevation Climbing'} href={'#'} description={'Django | Python | React | Node.js | PostgreSQL'} />
             </div>
         </div>
     )

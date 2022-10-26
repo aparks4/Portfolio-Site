@@ -1,10 +1,9 @@
 function ProjectCard(props) {
     return (
         <a href={props.href} target={'_blank'} rel={'noreferrer'}>
-            <div className='project-card'>
+            <div className='project-card' id={props.id}>
                 <h2>{props.name}</h2>
-                <img src={props.img} alt={props.name} height='100vh' width='100vh'/>
-                <p>description</p>
+                <p>{props.description}</p>
             </div>
         </a>
     )

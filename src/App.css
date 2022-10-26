@@ -41,14 +41,21 @@ nav a {
   width: 37vw;
   font-family: 'Space Mono', monospace;
   margin: .5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-card h2, .project-card p {
+  background-color: white;
+  width: 75%;
 }
 .contact-links-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  padding: 2vw;
   width: 10vw;
+  padding-bottom: 2vw;
   font-size: 5vh;
   height: 1vw;
   align-self: flex-end;
@@ -66,6 +73,27 @@ nav a {
   align-self: flex-start;
   left: .5vw;
 
+}
+#war-card {
+  background: url("https://i.imgur.com/F1EaL3c.jpg");
+  background-size: cover;
+}
+#dbtrip-card {
+  background: url("https://i.imgur.com/A5emwZ3.jpg");
+  background-size: cover;
+}
+#incantations-card {
+  background: url("https://i.imgur.com/3Kkip3g.jpg");
+  background-size: cover;
+}
+#elevation-card {
+  background: url("https://i.imgur.com/GK20CXe.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bio-container {
+  width: 80vw;
+  margin-left: 15vw;
 }
 
 

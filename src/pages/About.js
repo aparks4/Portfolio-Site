@@ -8,7 +8,6 @@ function About() {
         <div id='about'>
             <h1>About</h1>
             <Nav />
-            <ContactLinks />
             <Bio />
         </div>
     )

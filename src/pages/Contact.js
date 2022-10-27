@@ -6,7 +6,6 @@ function Contact() {
     return (
         <div id='contact'>
             <h1>Let's get in touch</h1>
-            <Nav />
             <ContactLinks />
         </div>
     )

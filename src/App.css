@@ -19,9 +19,31 @@ nav {
 nav a {
   padding-bottom: 3vh;
 }
-#about, #projects, #contact {
+#about, #projects {
   height: 100vh;
   display: flex;
+}
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 40vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, .5);
+  background-size: cover;
+}
+#contact h1 {
+  margin-top: 8vh;
+}
+#contact .contact-links-container {
+  align-self: center;
+  justify-content: space-evenly;
+  font-size: 15vh;
+  height: 20vh;
+  width: 60vw;
+  margin-top: 25vh;
+
 }
 .projects-container {
   height: 90vh;

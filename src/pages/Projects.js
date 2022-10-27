@@ -7,7 +7,6 @@ function Projects(props) {
         <div id='projects'>
             <h1>Projects</h1>
             <Nav />
-            <ContactLinks />
             <div className='projects-container'>
                 <ProjectCard id={'war-card'} name={'War'} href={'https://aparks4.github.io/War-Browser-Game/'} description={'HTML | CSS | JavaScript'}/>
                 <ProjectCard id={'dbtrip-card'} name={'DB Trippin'} href={'https://arynsgaproject.herokuapp.com/users/login'} description={'Express | Node.js | MongoDB | Mongoose'}/>

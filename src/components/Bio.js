@@ -1,7 +1,7 @@
 function Bio() {
     return (
         <div className='bio-container'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin diam ac eros sollicitudin ultricies. Nulla elit velit, feugiat semper commodo et, egestas sit amet enim. Fusce sit amet volutpat ex. Sed dignissim, augue ut congue lacinia, odio risus tincidunt eros, nec porttitor sem dolor faucibus felis. Proin aliquam congue metus non lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus condimentum lorem at enim condimentum, et scelerisque urna porta. Duis auctor diam in dictum efficitur. Vivamus ultrices rutrum eros. Nullam sit amet scelerisque nunc.</p>
+            <p>{`Howdy. I'm a software engineer with a strong foundation in bookworm-ery (i.e. a bachelor's degree in English) and a background working in mental health. Together, my education and work experience have instilled me with a love for PROCESS. I enjoy finding things that work for people - be they products, systems, or mindsets - and engaging in a process to make those things work better. This often (actually, always) requires collaboration, so I am big on teamwork and communication. I've found that software engineering is pretty crazy conducive to just this kind of work. I stay stoked for opportunities to write meaningful code.` }</p>
         </div>
     )
 }

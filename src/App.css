@@ -3,49 +3,72 @@
   text-align: center;
   font-family: 'Space Mono', monospace;
 }
-h1 {
-  margin-left: .5vw;
-}
-nav {
+#initials {
+  color: pink;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  font-family: 'Space Mono', monospace;
-  position: absolute;
-  left: 1vw;
-  height: 100vh; 
-}
-nav a {
-  padding-bottom: 3vh;
-}
-#about, #projects {
-  height: 100vh;
-  display: flex;
-}
-#contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  height: 40vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, .5);
-  background-size: cover;
-}
-#contact h1 {
-  margin-top: 8vh;
-}
-#contact .contact-links-container {
-  align-self: center;
-  justify-content: space-evenly;
-  font-size: 15vh;
-  height: 20vh;
-  width: 60vw;
-  margin-top: 25vh;
+  align-items: center;
+  position: fixed;
+  left: 2vh;
+  height: 7vh;
 
 }
+nav {
+  font-family: 'Space Mono', monospace;
+  position: fixed;
+  right: 0;
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: pink;
+}
+.nav-container {
+  position: fixed;
+  top: 0;
+  height: 7vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page {
+  height: 93vh;
+  width: 100vw;
+  display: flex;
+  padding-top: 5vh;
+}
+#home {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#home h1 {
+  font-size: 13vh;
+}
+#home h2 {
+  font-size: 5vh;
+}
+#about {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bio-container {
+  width: 80vw;
+}
+#projects {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .projects-container {
+  padding-top: 5vh;
   height: 90vh;
   width: 80vw;
   display: grid;
@@ -53,13 +76,10 @@ nav a {
   grid-template-rows: 1fr 1fr;
   justify-items: center;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: 3vw;
-  margin-top: 1vh;
 }
 .project-card {
   border: solid;
-  height: 47vh;
+  height: 40vh;
   width: 37vw;
   font-family: 'Space Mono', monospace;
   margin: .5vh;
@@ -69,32 +89,7 @@ nav a {
 }
 .project-card h2, .project-card p {
   background-color: white;
-  width: 75%;
-}
-.contact-links-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  width: 10vw;
-  padding-bottom: 2vw;
-  font-size: 5vh;
-  height: 1vw;
-  align-self: flex-end;
-  margin-bottom: 2vh;
-}
-.contact-links-container a:hover {
-  color: pink;
-}
-#about {
-  justify-content: center;
-  align-items: center;
-}
-#about h1 {
-  position: absolute;
-  align-self: flex-start;
-  left: .5vw;
-
+  width: 30vw;
 }
 .project-btns {
   display: flex;
@@ -111,23 +106,56 @@ nav a {
 #war-card {
   background: url("https://i.imgur.com/F1EaL3c.jpg");
   background-size: cover;
+  background-position: center;
 }
 #dbtrip-card {
   background: url("https://i.imgur.com/A5emwZ3.jpg");
   background-size: cover;
+  background-position: center;
+
 }
 #incantations-card {
   background: url("https://i.imgur.com/3Kkip3g.jpg");
   background-size: cover;
+  background-position: center;
 }
 #elevation-card {
   background: url("https://i.imgur.com/GK20CXe.jpg");
   background-size: cover;
   background-position: center;
 }
-.bio-container {
-  width: 80vw;
-  margin-left: 15vw;
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 40vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, .5);
+  background-size: cover;
+}
+#contact h1 {
+  margin-top: 3vh;
+  font-size: 4.5vh;
+}
+.contact-links-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  padding-bottom: 2vw;
+  font-size: 10vh;
+  height: 8vw;
+  align-self: flex-end;
+  margin-bottom: 2vh;
+}
+.contact-links-container p {
+  font-size: 2.5vh;
+  margin-top: 0;
+}
+.contact-links-container a:hover {
+  color: pink;
 }
 
 

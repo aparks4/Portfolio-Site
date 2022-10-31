@@ -4,18 +4,30 @@ import pdf from '../Resume.pdf'
 function ContactLinks() {
     return (
         <div className='contact-links-container'>
-            <a href="mailto:arynmparks@gmail.com" target='_blank' rel='noreferrer'>
-                <AiOutlineMail />
-            </a>
-            <a href="https://www.linkedin.com/in/aryn-parks/" target='_blank' rel='noreferrer'>
-                <AiFillLinkedin />
-            </a>
-            <a href="http://www.github.com/aparks4" target='_blank' rel='noreferrer'>
-                <AiFillGithub />
-            </a>
-            <a href={pdf} target='_blank' rel='noreferrer'>
-                <AiFillFileText />
-            </a>
+            <div>
+                <a href="mailto:arynmparks@gmail.com" target='_blank' rel='noreferrer'>
+                    <AiOutlineMail />
+                </a>
+                <p>arynmparks@gmail.com</p>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/aryn-parks/" target='_blank' rel='noreferrer'>
+                    <AiFillLinkedin />
+                </a>
+                <p>aryn-parks</p>
+            </div>
+            <div>
+                <a href="http://www.github.com/aparks4" target='_blank' rel='noreferrer'>
+                    <AiFillGithub />
+                </a>
+                <p>aparks4</p>
+            </div>
+            <div>
+                <a href={pdf} target='_blank' rel='noreferrer'>
+                    <AiFillFileText />
+                </a>
+                <p>download resume</p>
+            </div>
         </div>
     )
 }

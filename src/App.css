@@ -103,6 +103,9 @@ nav a:hover {
   border-radius: 15%;
   background-color:white;
 }
+.project-btn:hover {
+  background-color: rgb(254, 175, 244);
+}
 #war-card {
   background: url("https://i.imgur.com/F1EaL3c.jpg");
   background-size: cover;

@@ -59,8 +59,36 @@ nav a:hover {
   justify-content: flex-start;
   align-items: center;
 }
+#about h1 {
+  margin-bottom: 0;
+}
 .bio-container {
   width: 80vw;
+  margin-top: 0;
+  font-size: 15px;
+}
+.skillslist-container {
+  width: 100vw;
+  height: 36vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 2vh;
+}
+.skills-section {
+  font-size: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3vh;
+}
+.skills-section p {
+  margin: 1px;
+}
+.skills-title {
+  font-weight: bold;
+  text-decoration: underline;
 }
 #projects {
   flex-direction: column;

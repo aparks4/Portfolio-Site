@@ -1,16 +1,20 @@
 import Initials from "./Initials";
+import pdf from '../Resume.pdf';
+import {FaBars} from 'react-icons/fa';
 
 
-function Nav() {
+function Nav(props) {
     return (
         <div className='nav-container'>
             <Initials />
-            <nav>
-                <a href='/'>Home</a>
-                <a href='#about'>About</a>
-                <a href='#projects'>Projects</a>
-                <a href='#contact'>Contact</a>
+            <nav id='main-nav'>
+                <button><a href='/'>Home</a></button>
+                <button><a href='#about'>About</a></button>
+                <button><a href='#projects'>Projects</a></button>
+                <button><a href='#contact'>Contact</a></button>
+                <button><a href={pdf} target='_blank' rel='noreferrer'>Resume</a></button>
             </nav>
+            <button id='nav-btn' onClick={props.handleClick}><FaBars /></button>
         </div>
     )
 }

@@ -8,7 +8,7 @@ function Nav(props) {
         <div className='nav-container'>
             <Initials />
             <nav id='main-nav'>
-                <button><a href='/'>Home</a></button>
+                <button><a href='#home'>Home</a></button>
                 <button><a href='#about'>About</a></button>
                 <button><a href='#projects'>Projects</a></button>
                 <button><a href='#contact'>Contact</a></button>

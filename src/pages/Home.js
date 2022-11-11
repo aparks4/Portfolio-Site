@@ -1,11 +1,22 @@
 import '../static/styles/Home.css';
 import TypeWriterEffect from 'react-typewriter-effect';
+import TypeIt from 'typeit-react';
 
 function Home() {
+
     return (
         <div className='page' id='home'>
-            <h1><TypeWriterEffect startDelay={50} text='Aryn Parks' typeSpeed={250} eraseSpeed={250}/></h1>
-            <h2>Full Stack Developer</h2>
+            {/* <TypeIt 
+                options={{
+                    strings: ['Aryn Parks', 'Full Stack Developer'],
+                    speed: 200,
+                    waitUntilVisible: true,
+                }}
+            /> */}
+            <TypeIt id='typewriter' >
+                <strong id='my-name'>Aryn Parks</strong>
+                <h2 id='my-title'>Full Stack Developer</h2>
+            </TypeIt>
         </div>
 
     )

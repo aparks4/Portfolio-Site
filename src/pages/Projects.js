@@ -5,6 +5,9 @@ import ContactLinks from "../components/ContactLinks";
 function Projects(props) {
     return (
         <div className='page' id='projects'>
+            <div id='projects-h1'>
+                <h1>Featured Projects</h1>
+            </div>
             <div className='projects-container'>
                 <ProjectCard id={'war-card'} name={'War'} liveSite={'https://aparks4.github.io/War-Browser-Game/'} code={'#'} description={'HTML | CSS | JavaScript'}/>
                 <ProjectCard id={'dbtrip-card'} name={'DB Trippin'} liveSite={'https://arynsgaproject.herokuapp.com/users/login'} code={'#'} description={'Express | Node.js | MongoDB | Mongoose'}/>

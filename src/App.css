@@ -22,6 +22,7 @@ nav {
 }
 nav button {
   background-color: black;
+  border-color: black;
   font-family: 'Space Mono', monospace;
   font-size: 4vh;
 }
@@ -84,7 +85,7 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgba(255, 255, 255, .0);
 }
 #my-name {
   font-size: 13vh;
@@ -93,6 +94,14 @@ nav a:hover {
 #my-title {
   font-size: 5vh;
   color: black;
+}
+.jump-btn {
+  transform: rotate(90deg);
+}
+#home .jump-btn {
+  z-index: 1;
+  position: absolute;
+  margin-top: 77vh;
 }
 #about {
   flex-direction: column;

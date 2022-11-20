@@ -63,9 +63,13 @@ nav a:hover {
   background-color: black;
   font-family: 'Space Mono', monospace;
   font-size: 8vh;
+  appearance: none;
+  -webkit-appearance: none;
 }
 #nav-btn {
   display: none;
+  appearance: none;
+  -webkit-appearance: none;
 }
 .page {
   height: 93vh;
@@ -316,5 +320,58 @@ nav a:hover {
     color: pink;
   }
 }
+
+@media (max-width: 480px) {
+  #nav-btn {
+    height: 4vh;
+    font-size: 3vh;
+  }
+  #mobile-nav button {
+    width: 60vw;
+    height: 15vh;
+  }
+  #initials {
+    font-size: 6vh;
+  }
+  #about {
+    height: 150vh;
+  }
+  .skillslist-container {
+    height: 40vh;
+  }
+  .skills-section {
+    color: white;
+    background-color: black;
+    padding-top: 4vw;
+    padding-bottom: 1vw;
+    font-size: 2vh;
+    width: 30vw;
+    margin-bottom: 1vh;
+  }
+  .project-card p, .project-card h2 {
+    width: 70vw;
+    background-color:rgba(255, 255, 255, .85);
+  }
+  .project-card button {
+    height: 10vh;
+  }
+  .contact-links-container {
+    height: 40vh;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-bottom: 15vh;
+    align-items: flex-start;
+  }
+  .contact-link {
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-link p {
+    font-size: 2vh;
+  }
+
+}
+
 
 

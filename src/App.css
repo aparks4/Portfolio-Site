@@ -67,13 +67,13 @@ nav a:hover {
   font-size: 8vh;
   appearance: none;
   -webkit-appearance: none;
-  border-radius: 0;
   border-color: black;
 }
 #nav-btn {
   display: none;
   appearance: none;
   -webkit-appearance: none;
+  border-color: black;
 }
 .page {
   height: 93vh;
@@ -330,7 +330,13 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+  #home {
+    height: 80vh;
+  }
+  #my-name {
+    font-size: 10vh;
   }
   .page {
     margin-top: 5vh;
@@ -339,52 +345,74 @@ nav a:hover {
   #nav-btn {
     height: 4vh;
     font-size: 3vh;
+    right: 2vw;
   }
   #mobile-nav button {
-    width: 80vw;
+    width: 100vw;
     height: 15vh;
   }
   #initials {
     font-size: 6vh;
   }
   #about {
-    height: 150vh;
+    height: 200vh;
   }
   .skillslist-container {
-    height: 40vh;
+    height: 50vh;
   }
   .skills-section {
     color: white;
     background-color: black;
     padding-top: 4vw;
     padding-bottom: 1vw;
-    font-size: 2vh;
+    font-size: 1.8vh;
     width: 30vw;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
+    margin-top: 0;
+  }
+  #projects {
+    padding: 0;
+  }
+  #projects h1 {
+    font-size: 3vh;
+    margin-top: 0;
   }
   .project-card p, .project-card h2 {
     width: 70vw;
     background-color:rgba(255, 255, 255, .85);
+    margin-bottom: 7vh;
+    padding: 2vh;
   }
   .project-card button {
-    height: 10vh;
+    height: 6vh;
+    width: 25vw;
+  }
+  #contact {
+    height: 40vh;
+    margin-top: 14vh;
+  }
+  #contact h1 {
+    margin-top: 2vh;
   }
   .contact-links-container {
-    height: 40vh;
+    height: 23vh;
     flex-wrap: wrap;
-    width: 50vw;
-    margin-bottom: 15vh;
-    align-items: flex-start;
+    width: 100vw;
+    margin-bottom: 0;
+    align-items: center;
   }
   .contact-link {
-    width: 18vw;
+    width: 10vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3vh;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 20vw;
+    font-size: 4vh;
   }
   .contact-link p {
-    font-size: 2vh;
+    font-size: .9vh;
   }
 
 }

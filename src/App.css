@@ -339,7 +339,6 @@ nav a:hover {
     font-size: 10vh;
   }
   .page {
-    margin-top: 5vh;
     width: 100vw;
   }
   #nav-btn {
@@ -355,7 +354,10 @@ nav a:hover {
     font-size: 6vh;
   }
   #about {
-    height: 200vh;
+    height: 100vh;
+  }
+  .bio-container {
+    font-size: 1.8vh;
   }
   .skillslist-container {
     height: 50vh;
@@ -371,10 +373,18 @@ nav a:hover {
     margin-top: 0;
   }
   #projects {
-    padding: 0;
+    padding-top: 0;
+  }
+  .projects-container {
+    width: 100vw;
+    margin-bottom: 0;
   }
   #projects h1 {
     font-size: 3vh;
+    margin-top: 0;
+  }
+  .project-card {
+    height: 93vh;
     margin-top: 0;
   }
   .project-card p, .project-card h2 {
@@ -388,14 +398,14 @@ nav a:hover {
     width: 25vw;
   }
   #contact {
-    height: 40vh;
-    margin-top: 14vh;
+    height: 60vh;
+    margin-top: 10vh;
   }
   #contact h1 {
-    margin-top: 2vh;
+    margin-top: 10vh;
   }
   .contact-links-container {
-    height: 23vh;
+    height: 35vh;
     flex-wrap: wrap;
     width: 100vw;
     margin-bottom: 0;

@@ -6,13 +6,13 @@ import Contact from "./Contact";
 
 function Scroll() {
     return (
-        <>
+        <div id="scroll-page">
             <Nav />
             <Home />
             <About />
             <Projects />
             <Contact />
-        </>
+        </div>
 
     )
 }

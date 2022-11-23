@@ -355,7 +355,7 @@ nav a:hover {
   }
   #about {
     height: 100vh;
-    margin-top: 8vh;
+    margin-top: 10vh;
   }
   .bio-container {
     font-size: 1.8vh;
@@ -370,6 +370,7 @@ nav a:hover {
     padding-bottom: 1vw;
     font-size: 1.8vh;
     width: 30vw;
+    height: 27vh;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -378,13 +379,14 @@ nav a:hover {
     margin-top: 0;
     height: 360vh;
   }
+  #projects h1 {
+    font-size: 3.8vh;
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+  }
   .projects-container {
     width: 100vw;
     margin-bottom: 0;
-  }
-  #projects h1 {
-    font-size: 3.8vh;
-    margin-top: 0;
   }
   .project-card {
     height: 93vh;

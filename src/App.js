@@ -1,6 +1,5 @@
 import './App.css';
 import './static/styles/Home.css'
-import Main from './components/Main';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import About from './pages/About';

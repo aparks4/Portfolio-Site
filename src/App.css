@@ -24,7 +24,7 @@ nav button {
   background-color: black;
   border-color: black;
   font-family: 'Space Mono', monospace;
-  font-size: 4vh;
+  font-size: 3vh;
   appearance: none;
   -webkit-appearance: none;
 }
@@ -115,6 +115,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 5vh;
 }
 #about h1 {
   margin-bottom: 0;

@@ -1,6 +1,6 @@
 function Initials() {
     return(
-        <h1 id='initials'>AP</h1>
+        <h1 id='initials'>{'<3'}</h1>
     )
 }
 

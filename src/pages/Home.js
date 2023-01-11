@@ -7,12 +7,13 @@ function Home() {
 
     return (
         <div className='page' id='home'>
-            <TypeIt id='typewriter' >
-                <strong id='my-name'>Aryn Parks</strong>
-                <h2 id='my-title'>Full Stack Developer</h2>
-            </TypeIt>
-            <JumpBtn jumpTo={"#about"} />
-
+            <div className="name-title-container"></div>
+            <div className="name-title">
+                <TypeIt id='typewriter' >
+                    <strong id='my-name'>Aryn Parks</strong>
+                    <h2 id='my-title'>Full Stack Developer</h2>
+                </TypeIt>
+            </div>
         </div>
 
     )

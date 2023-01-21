@@ -8,7 +8,7 @@ function ContactLinks() {
                 <a href="mailto:arynmparks@gmail.com" target='_blank' rel='noreferrer'>
                     <AiOutlineMail />
                 </a>
-                <p>arynmparks@gmail .com</p>
+                <p>arynmparks@gmail.com</p>
             </div>
             <div className='contact-link'>
                 <a href="https://www.linkedin.com/in/aryn-parks/" target='_blank' rel='noreferrer'>

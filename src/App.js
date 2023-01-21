@@ -29,14 +29,9 @@ function App(props) {
     <div className="App">
       <Nav handleClick={handleClick} />
       <Home />
-      {/* <About /> */}
-      {/* <Test background={"https://i.imgur.com/hCnj0nm.jpg"}/> */}
-      {/* <Test background={"https://i.imgur.com/XuH1xSE.jpg"}/> */}
-      <Test background={"https://i.imgur.com/ifNM8eT.jpg"}/>
-      <Test background={"https://i.imgur.com/6mqJ5MI.jpg"}/>
-      <Test background={"https://i.imgur.com/yCB5VHB.jpg"}/>
-      <Test background={"https://i.imgur.com/kbKSxEH.jpg"} />
-      <Projects />
+      <About />
+      <Test background={"https://i.imgur.com/XeYPqgw.jpg"}/>
+      {/* <Projects /> */}
       <Contact />
     </div>
   );

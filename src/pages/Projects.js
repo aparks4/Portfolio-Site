@@ -6,7 +6,7 @@ function Projects(props) {
     return (
         <div className='page' id='projects'>
             <div id='projects-h1'>
-                <h1>Featured Projects</h1>
+                <h1>Projects</h1>
             </div>
             <div className='projects-container'>
                 <ProjectCard id={'war-card'} name={'War'} liveSite={'https://aparks4.github.io/War-Browser-Game/'} code={'https://github.com/aparks4/War-Browser-Game'} description={'HTML | CSS | JavaScript'}/>

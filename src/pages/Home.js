@@ -10,8 +10,8 @@ function Home() {
             <div className="name-title-container"></div>
             <div className="name-title">
                 <TypeIt id='typewriter' >
-                    <strong id='my-name'>Aryn Parks</strong>
-                    <h2 id='my-title'>Full Stack Developer</h2>
+                    <strong id='my-name'>aryn parks</strong>
+                    <h2 id='my-title'>full stack developer</h2>
                 </TypeIt>
             </div>
         </div>

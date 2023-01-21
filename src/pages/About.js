@@ -6,9 +6,9 @@ import SkillsList from "../components/SkillsList";
 function About() {
     return (
         <div className='page' id='about'>
-            <h1>About</h1>
+            <h1>about</h1>
             <Bio />
-            <SkillsList />
+            {/* <SkillsList /> */}
         </div>
     )
 }

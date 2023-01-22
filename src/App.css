@@ -4,7 +4,6 @@
   font-family: 'Space Mono', monospace;
 }
 #initials {
-  /* color: rgb(255, 196, 205); */
   color: white;
   display: flex;
   justify-content: center;
@@ -197,8 +196,6 @@ nav a:hover {
   text-decoration: underline;
 }
 #projects {
-  /* height: 100vh;
-  width: 100vw; */
   background-position: center;
   background-size: cover;
   display: flex;
@@ -313,8 +310,12 @@ nav a:hover {
 }
 
 @media (max-width: 1050px) {
+  #initials {
+    left: .5vw;
+    font-size: 3vh;
+  }
   .name-title-container {
-    width: 70vw;
+    width: 80vw;
   }
   .bio-container {
     font-size: 2.3vh;
@@ -324,7 +325,10 @@ nav a:hover {
   }
   .project-card {
     height: 30vh;
-    width: 40vw;
+    width: 45vw;
+  }
+  .project-card h2 {
+    font-size: 1.8vh;
   }
   .project-card p {
     font-size: 1.5vh;
@@ -333,14 +337,19 @@ nav a:hover {
     width: 100%;
   }
   .project-btn {
-    font-size: 2vh;
+    font-size: 1vh;
+    width: 10vw;
+    border: solid;
+    border-color: black;
+    -webkit-appearance: none;
+
   }
   .contact-links-container {
-    width: 75vw;
-    font-size: 8vh
+    width: 85vw;
+    font-size: 7vh
   }
   .contact-links-container p {
-    font-size: 2vh;
+    font-size: 1vh;
   }
   .contact-link {
     width: 40%;
@@ -353,11 +362,11 @@ nav a:hover {
   #nav-btn {
     /* display: inline-block; */
     position: fixed;
-    right: 1vw;
+    right: .2vw;
     background-color: black;
     height: 7vh;
     color: white;
-    font-size: 4vh;
+    font-size: 5vh;
     border: white;
     display: flex;
     justify-content: center;

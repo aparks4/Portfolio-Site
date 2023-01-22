@@ -114,9 +114,8 @@ nav a:hover {
 }
 .name-title-container {
   background-color: rgba(223, 215, 215, 0.75);
-  /* background-color: rgba(168, 201, 168, 0.75); */
   height: 65vh;
-  width: 55vw;
+  width: 48vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,7 +152,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 10vh;
   background-image: url("https://i.imgur.com/ZrfLlnx.jpg");
   background-position: center;
   background-size: cover;
@@ -198,16 +197,19 @@ nav a:hover {
   text-decoration: underline;
 }
 #projects {
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
   background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  margin-top: 5vh;
+  margin-top: 10vh;
+  background-image: url("https://i.imgur.com/XeYPqgw.jpg");
+  background-position: center;
+  background-size: cover;
 }
 #projects h1{
-  margin-bottom: 2vh;
+  margin-bottom: 0;
   margin-top: 8vh;
 }
 #test-div-wrapper {
@@ -219,30 +221,6 @@ nav a:hover {
   flex-wrap: wrap;
   align-self: center;
 }
-/* #test-div {
-  height: 35vh;
-  width: 40vw;
-  background-color: rgba(223, 215, 215, 0.73);
-  border-radius: 8%;
-} */
-/* #projects {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url("https://i.imgur.com/XeYPqgw.jpg");
-  background-position: center;
-  background-size: cover;
-} */
-/* .projects-container {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-items: center;
-  justify-content: space-around;
-  margin-bottom: 10vh;
-} */
 .project-card {
   border: solid;
   font-family: 'Space Mono', monospace;
@@ -250,8 +228,8 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  height: 35vh;
-  width: 40vw;
+  height: 30vh;
+  width: 35vw;
   background-color: rgba(223, 215, 215, 0.73);
   border-radius: 8%;
 }
@@ -264,7 +242,6 @@ nav a:hover {
   font-size: 2.1vh;
   width: 35vw;
 }
-
 .project-btns {
   display: flex;
   justify-content: space-evenly;
@@ -287,31 +264,36 @@ nav a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
-  width: 100vw;
   background-image: url("https://i.imgur.com/z5ELeDu.jpg");
   background-position: center;
   background-size: cover;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 #contact h1 {
-  margin-top: 10vh;
+  margin-top: 5vh;
   font-size: 4.5vh;
 }
 .contact-links-container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   position: absolute;
-  width: 80vw;
+  width: 45vw;
   font-size: 10vh;
   height: 60vh;
   align-self: center;
+  margin-top: 10vh;
   background-color: rgba(223, 215, 215, 0.83);
   border-radius: 8%;
   padding: 1%;
+}
+.contact-link-left {
+  margin-left: 5vw;
+}
+.contact-link-right {
+  margin-right: 5vw;
 }
 .contact-links-container p {
   font-size: 2.3vh;
@@ -322,7 +304,7 @@ nav a:hover {
 }
 .contact-link {
   height: 40%;
-  width: 40%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,48 +313,37 @@ nav a:hover {
 }
 
 @media (max-width: 1050px) {
-  #about {
-    height: 120vh;
-    margin-bottom: 5vh;
+  .name-title-container {
+    width: 70vw;
   }
   .bio-container {
-    font-size: 3vh;
+    font-size: 2.3vh;
   }
-  /* #projects {
-    height: 400vh;
-  } */
   .skills-section {
     font-size: 3vh;
   }
-  /* .projects-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 400vh;
-  }
   .project-card {
-    height: 200vh;
-    width: 80vw;
+    height: 30vh;
+    width: 40vw;
   }
-  .project-card h2, .project-card p {
-    width: 50vw;
+  .project-card p {
+    font-size: 1.5vh;
   }
-  .project-btn {
-    height: 7vh;
-  } */
   .project-btns {
     width: 100%;
   }
   .project-btn {
-    height: 7vh;
-    font-size: 70%;
-  }
-  #contact h1 {
-    margin-top: 15vh;
+    font-size: 2vh;
   }
   .contact-links-container {
-    margin-top: 20vh;
+    width: 75vw;
+    font-size: 8vh
+  }
+  .contact-links-container p {
+    font-size: 2vh;
+  }
+  .contact-link {
+    width: 40%;
   }
 }
 @media (max-width: 950px) {

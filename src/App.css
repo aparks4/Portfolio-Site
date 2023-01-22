@@ -358,13 +358,13 @@ nav a:hover {
     display: none;
   }
   #nav-btn {
-    /* display: inline-block; */
     position: fixed;
     right: 0;
     background-color: black;
-    height: 7vh;
+    height: 6vh;
+    width: 4vw;
     color: white;
-    font-size: 4vh;
+    font-size: 3.5vh;
     border: white;
     display: flex;
     justify-content: center;

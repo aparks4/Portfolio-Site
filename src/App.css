@@ -311,11 +311,11 @@ nav a:hover {
 
 @media (max-width: 1050px) {
   #initials {
-    left: .5vw;
-    font-size: 3vh;
+    left: 2vw;
+    font-size: 2vh;
   }
   .name-title-container {
-    width: 80vw;
+    width: 85vw;
   }
   .bio-container {
     font-size: 2.3vh;
@@ -328,7 +328,7 @@ nav a:hover {
     width: 45vw;
   }
   .project-card h2 {
-    font-size: 1.8vh;
+    font-size: 2vh;
   }
   .project-card p {
     font-size: 1.5vh;
@@ -338,11 +338,9 @@ nav a:hover {
   }
   .project-btn {
     font-size: 1vh;
-    width: 10vw;
+    width: 5vw;
     border: solid;
     border-color: black;
-    -webkit-appearance: none;
-
   }
   .contact-links-container {
     width: 85vw;
@@ -395,15 +393,15 @@ nav a:hover {
   }
   #nav-btn {
     height: 4vh;
-    font-size: 3vh;
-    right: 2vw;
+    font-size: 4vh;
+    right: .2vw;
   }
   #mobile-nav button {
     width: 100vw;
     height: 15vh;
   }
   #initials {
-    font-size: 6vh;
+    font-size: 4vh;
   }
   #about {
     height: 100vh;
@@ -450,10 +448,10 @@ nav a:hover {
     margin-bottom: 7vh;
     padding: 2vh;
   } */
-  .project-card button {
+  /* .project-card button {
     height: 6vh;
     width: 25vw;
-  }
+  } */
 
 
 }

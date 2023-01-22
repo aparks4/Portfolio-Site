@@ -311,8 +311,8 @@ nav a:hover {
 
 @media (max-width: 1050px) {
   #initials {
-    left: 2vw;
-    font-size: 2vh;
+    left: 1vw;
+    font-size: 4vh;
   }
   .name-title-container {
     width: 85vw;
@@ -338,7 +338,7 @@ nav a:hover {
   }
   .project-btn {
     font-size: 1vh;
-    width: 5vw;
+    width: 20vw;
     border: solid;
     border-color: black;
   }
@@ -347,7 +347,7 @@ nav a:hover {
     font-size: 7vh
   }
   .contact-links-container p {
-    font-size: 1vh;
+    font-size: 1.5vh;
   }
   .contact-link {
     width: 40%;
@@ -360,11 +360,11 @@ nav a:hover {
   #nav-btn {
     /* display: inline-block; */
     position: fixed;
-    right: .2vw;
+    right: 0;
     background-color: black;
     height: 7vh;
     color: white;
-    font-size: 5vh;
+    font-size: 4vh;
     border: white;
     display: flex;
     justify-content: center;
@@ -382,9 +382,6 @@ nav a:hover {
     align-items: center;
     justify-content: center;
   }
-  #home {
-    height: 80vh;
-  }
   #my-name {
     font-size: 10vh;
   }
@@ -394,18 +391,15 @@ nav a:hover {
   #nav-btn {
     height: 4vh;
     font-size: 4vh;
-    right: .2vw;
+    right: 0;
   }
   #mobile-nav button {
     width: 100vw;
-    height: 15vh;
+    height: 13vh;
   }
   #initials {
     font-size: 4vh;
-  }
-  #about {
-    height: 100vh;
-    margin-top: 10vh;
+    margin-left: 1vw;
   }
   .bio-container {
     font-size: 1.8vh;

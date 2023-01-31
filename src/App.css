@@ -9,10 +9,10 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  left: 0;
-  width: 10vw;
+  margin-left: 0;
+  width: 5vw;
   height: 8vh;
-  font-size: 5vh;
+  font-size: 4.5vh;
 }
 nav {
   font-family: 'Space Mono', monospace;
@@ -34,13 +34,10 @@ nav a {
   color: white;
   margin-right: 3px;
   margin-left: 3px;
-
 }
 nav a:hover {
-  /* color: pink; */
   text-decoration: line-through;
   font-weight: lighter;
-
 }
 .nav-container {
   position: fixed;
@@ -88,7 +85,7 @@ nav a:hover {
   border-color: black;
 }
 .page {
-  height: 93vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   padding-top: 5vh;
@@ -125,8 +122,8 @@ nav a:hover {
 }
 .name-title {
   z-index: 2;
-  height: 65vh;
-  width: 55vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,12 +170,15 @@ nav a:hover {
   border-radius: 8%;
 }
 .skillslist-container {
-  width: 100vw;
-  height: 36vh;
+  width: 87vw;
+  height: 40vh;
+  margin-top: 5vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 2vh;
+  align-items: center;
+  background-color: rgba(223, 215, 215, 0.73);
+  border-radius: 8%;
 }
 .skills-section {
   font-size: 2.5vh;
@@ -186,18 +186,18 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 9vh;
+  height: 35vh;
+  width: 22%;
 }
 .skills-section p {
-  margin: 1px;
+  margin: .4vh;
 }
 .skills-title {
   font-weight: bold;
   text-decoration: underline;
+  padding-top: 2vh;
 }
 #projects {
-  background-position: center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   margin-top: 10vh;
@@ -242,7 +242,7 @@ nav a:hover {
 .project-btns {
   display: flex;
   justify-content: space-evenly;
-  width: 65%;
+  width: 85%;
 }
 .project-btn {
   height: 5vh;
@@ -251,6 +251,8 @@ nav a:hover {
   border-radius: 15%;
   background-color:white;
   cursor: pointer;
+  width: 10vw;
+  font-size: 1.5vh;
 }
 .project-btn:hover {
   background-color: rgb(254, 175, 244);
@@ -311,8 +313,8 @@ nav a:hover {
 
 @media (max-width: 1050px) {
   #initials {
+    font-size: 4.5vh;
     left: 1vw;
-    font-size: 4vh;
   }
   .name-title-container {
     width: 85vw;
@@ -322,7 +324,7 @@ nav a:hover {
     font-size: 2.3vh;
   }
   .skills-section {
-    font-size: 3vh;
+    font-size: 2vh;
   }
   .project-card {
     height: 30vh;
@@ -338,10 +340,7 @@ nav a:hover {
     width: 100%;
   }
   .project-btn {
-    font-size: 1vh;
     width: 20vw;
-    border: solid;
-    border-color: black;
   }
   .contact-links-container {
     width: 85vw;
@@ -372,6 +371,10 @@ nav a:hover {
   }
   #nav-btn:hover {
     cursor: pointer;
+  }
+  .project-btn {
+    font-size: 1.3vh;
+    height: 4vh;
   }
 }
 
@@ -404,7 +407,7 @@ nav a:hover {
   .bio-container {
     font-size: 1.8vh;
   }
-  .skillslist-container {
+  /* .skillslist-container {
     height: 50vh;
   }
   .skills-section {
@@ -417,38 +420,5 @@ nav a:hover {
     height: 27vh;
     margin-bottom: 0;
     margin-top: 0;
-  }
-  /* #projects {
-    padding-top: 0;
-    margin-top: 0;
-    height: 360vh;
-  }
-  #projects h1 {
-    font-size: 3.8vh;
-    margin-top: 3vh;
-    margin-bottom: 1.5vh;
   } */
-  /* .projects-container {
-    width: 100vw;
-    margin-bottom: 0;
-  } */
-  /* .project-card {
-    height: 93vh;
-    margin-top: 0;
-  } */
-  /* .project-card p, .project-card h2 {
-    width: 70vw;
-    background-color:rgba(255, 255, 255, .85);
-    margin-bottom: 7vh;
-    padding: 2vh;
-  } */
-  /* .project-card button {
-    height: 6vh;
-    width: 25vw;
-  } */
-
-
 }
-
-
-

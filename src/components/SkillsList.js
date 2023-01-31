@@ -23,11 +23,9 @@ function SkillsList() {
                 <p className='skills-title'>Database</p>
                 <p>PostgreSQL</p>
                 <p>MongoDB</p>
-                <div className='skills-section'>
-                    <p className='skills-title'>Version Control</p>
-                    <p>Git</p>
-                    <p>Github</p>
-                </div>
+                <p className='skills-title'>Version Control</p>
+                <p>Git</p>
+                <p>Github</p>
             </div>
         </div>
     )

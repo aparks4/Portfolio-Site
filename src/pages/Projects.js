@@ -1,14 +1,10 @@
-import Nav from "../components/Nav";
 import ProjectCard from "../components/ProjectCard";
-import ContactLinks from "../components/ContactLinks";
 
 function Projects(props) {
     return (
-        <div className='page' id='projects'>
-            <div id='projects-h1'>
-                <h1>Projects</h1>
-            </div>
-            <div className='projects-container'>
+        <div id="projects">
+            <h1>featured projects</h1>
+            <div id="test-div-wrapper">
                 <ProjectCard id={'war-card'} name={'War'} liveSite={'https://aparks4.github.io/War-Browser-Game/'} code={'https://github.com/aparks4/War-Browser-Game'} description={'HTML | CSS | JavaScript'}/>
                 <ProjectCard id={'dbtrip-card'} name={'DB Trippin'} liveSite={'https://arynsgaproject.herokuapp.com/users/login'} code={'https://github.com/aparks4/DBTrippin'} description={'Express | Node.js | MongoDB | Mongoose'}/>
                 <ProjectCard id={'incantations-card'} name={'Incantations for Spotify'} liveSite={'https://beamish-eclair-ddafee.netlify.app'} code={'https://github.com/basementlivin/Incantations-for-Spotify'} description={'React | Express | Node.js | JWT'} />

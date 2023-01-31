@@ -3,11 +3,10 @@ import './static/styles/Home.css'
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import MobileNav from './components/MobileNav';
 import { useState, useEffect } from 'react';
-import Test from './pages/Test';
+import Projects from './pages/Projects';
 
 function App(props) {
   const [clicked, setClicked] = useState(false);
@@ -30,8 +29,7 @@ function App(props) {
       <Nav handleClick={handleClick} />
       <Home />
       <About />
-      <Test background={"https://i.imgur.com/XeYPqgw.jpg"}/>
-      {/* <Projects /> */}
+      <Projects/>
       <Contact />
     </div>
   );

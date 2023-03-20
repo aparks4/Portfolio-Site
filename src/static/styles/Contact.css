@@ -1,0 +1,34 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.contact-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    width: 85vw;
+    margin-top: 5vh;
+}
+.contact-card {
+    width: 15vw;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+}
+.contact-card a {
+    color: black;
+    font-size: 8vh;
+}
+.contact-card a:hover {
+    color: var(--lime);
+}

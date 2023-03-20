@@ -1,16 +1,16 @@
-import ContactLinks from "../components/ContactLinks";
-import Bio from "../components/Bio";
-import SkillsList from "../components/SkillsList";
+import '../static/styles/About.css';
+import { AboutBlurb } from "../components/AboutBlurb"
 
 
-function About() {
+export const AboutPage = () => {
     return (
-        <div className='page' id='about'>
-            <h1>about</h1>
-            <Bio />
-            {/* <SkillsList /> */}
-        </div>
+        <>
+            <div className="about-page">
+                <h1>about me</h1>
+                <AboutBlurb />
+                <h1>skills & technologies</h1>
+                <h1>.................</h1>
+            </div>
+        </>
     )
 }
-
-export default About;

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+  --sage: #5F634F;
+  --purple: #591F0A;
+  --darkPink: #92374D;
+  --lime: #BDBF09;
+  --orange: #D96C06;
+  --teal: #16302B;
+  
+}
+
+.App {
+  text-align: center;
+  font-family: 'Vibes';
+}
+body {
+  background-color: #7A6563;
+}
+.web-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  margin-bottom: 5vh;
+  color: linen;
+  font-family: 'Karla', sans-serif;
+}
+.web-nav a {
+  color: var(--lime);
+  font-size: 23px;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.web-nav a:hover {
+  text-decoration: line-through;
+}

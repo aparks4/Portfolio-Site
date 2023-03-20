@@ -1,14 +1,18 @@
-function ProjectCard(props) {
+import { Link } from 'react-router-dom';
+
+export const ProjectCard = (props) => {
     return (
-            <div className='project-card' id={props.id}>
+        <>
+            <div className="project-card">
                 <h2>{props.name}</h2>
-                <p>{props.description}</p>
-                <div className='project-btns'>
-                    <a href={props.liveSite} target={'_blank'} rel={'noreferrer'}><button className='project-btn'>Live Site</button></a>
-                    <a href={props.code} target={'_blank'} rel={'noreferrer'}><button className='project-btn'>Code</button></a>
+                <p>{props.technologies}</p>
+                {/* <p>{props.description}</p> */}
+                <div className="project-links-wrapper">
+                    <a href={props.site} target={'_blank'} rel={'noreferrer'}>Live Site</a>
+                    <a href={props.code} target={'_blank'} rel={'noreferrer'}>Code</a>
                 </div>
             </div>
+        
+        </>
     )
 }
-
-export default ProjectCard;

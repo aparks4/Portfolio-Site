@@ -1,22 +1,22 @@
 import '../static/styles/Home.css';
-import TypeWriterEffect from 'react-typewriter-effect';
-import TypeIt from 'typeit-react';
-import JumpBtn from '../components/JumpBtn';
+import { ProjectsPage } from './Projects';
+import { AboutPage } from './About';
+import { ContactPage } from './Contact';
 
-function Home() {
+export const HomePage = () => {
 
     return (
-        <div className='page' id='home'>
-            <div className="name-title-container"></div>
-            <div className="name-title">
-                <TypeIt id='typewriter' >
-                    <strong id='my-name'>aryn parks</strong>
-                    <h2 id='my-title'>full stack developer</h2>
-                </TypeIt>
+        <>
+            <div className="home-page">
+                <div className="home-main">
+                    <h1>aryn parks</h1>
+                    <h2>full stack developer</h2>
+                </div>
+                {/* <div className="skeleton"></div> */}
             </div>
-        </div>
+        </>
+
 
     )
 }
 
-export default Home;

@@ -1,22 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-.home-container {
-    display: flex;
-    justify-content: flex-end;
-}
-.home-nav {
-    font-family: 'Space Mono', monospace;
+.home-page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vh;
-    font-size: 20vh;
-}
-a {
-    text-decoration: none;
+    width: 100vw;
     color: black;
 }
-a:hover {
-    font-weight: bolder;
+.home-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-page h1 {
+    font-size: 15vh;
+    margin-bottom: 0;
+}
+.home-page h2 {
+    font-size: 10vh;
+    margin-top: 0;
+}
+.skeleton {
+    background-image: url("https://i.imgur.com/s90IOiT.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 5vh;
+    right: 0;
+    height: 75vh;
+    width: 30vw;
 }

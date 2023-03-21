@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 50vw;
+    width: 80vw;
     height: 85vh;
     margin-top: 5vh;
 }
@@ -23,8 +23,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 230px;
-    width: 300px;
+    height: 30vh;
+    width: 35vw;
 }
 .project-card h2 {
     margin-bottom: 0;
@@ -54,4 +54,58 @@
 }
 .project-card a:hover {
     color: var(--lime);
+}
+
+@media only screen and (min-width: 1300px) {
+    .projects-container {
+        width: 54vw;
+    }
+    .project-card {
+        width: 25vw;
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .project-card {
+        height: 30vh;
+        width: 37vw;
+    }
+    .project-card h2 {
+        font-size: 18px;
+    }
+    .project-card p {
+        font-size: 15px;
+    }
+    .project-card a {
+        font-size: 17px;
+        width: 10vw;
+        height: 4vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .projects-page {
+        height: 130vh;
+        justify-content: flex-start;
+    }
+    .projects-container {
+        width: 70vw;
+        margin-top: 10vh;
+    }
+    .project-card {
+        height: 25vh;
+        width: 65vw;
+        margin-bottom: 3vh;
+    }
+    .project-card p {
+        font-size: 14px;
+    }
+    .project-card a {
+        width: 17vw;
+        height: 3vh;
+    }
+    .project-card h2 {
+        font-size: 19px;
+    }
 }

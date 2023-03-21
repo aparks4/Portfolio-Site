@@ -32,3 +32,15 @@
 .contact-card a:hover {
     color: var(--lime);
 }
+
+@media only screen and (max-width: 480px) {
+    .contact-main {
+        width: 90vw;
+        height: 50vh;
+        flex-wrap: wrap;
+    }
+    .contact-card {
+        height: 20vh;
+        width: 40vw;
+    }
+}

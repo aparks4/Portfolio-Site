@@ -43,3 +43,11 @@ body {
 .web-nav a:hover {
   text-decoration: line-through;
 }
+
+@media only screen and (max-width: 480px) {
+  .web-nav a{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

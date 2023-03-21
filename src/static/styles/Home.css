@@ -31,3 +31,13 @@
     height: 75vh;
     width: 30vw;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .home-page h1 {
+        font-size: 11vh;
+    }
+    .home-page h2 {
+        font-size: 6vh;
+    }
+}

@@ -1,5 +1,6 @@
 import '../static/styles/About.css';
-import { AboutBlurb } from "../components/AboutBlurb"
+import { AboutBlurb } from "../components/AboutBlurb";
+import { SkillsSection } from '../components/SkillsSection';
 
 
 export const AboutPage = () => {
@@ -8,8 +9,8 @@ export const AboutPage = () => {
             <div className="about-page">
                 <h1>about me</h1>
                 <AboutBlurb />
-                <h1>skills & technologies</h1>
-                <h1>.................</h1>
+                <h1>technologies</h1>
+                <SkillsSection />
             </div>
         </>
     )

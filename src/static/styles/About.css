@@ -1,22 +1,82 @@
 .about-page {
-    height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 10vh;
 }
+.about-page h1 {
+    font-size: 35px;
+    /* margin-right: 25vw;
+    margin-left: 25vw; */
+}
+/* .right-align {
+    align-self: flex-end;
+}
+.left-align {
+    align-self: flex-start;
+} */
 .about-blurb {
     font-family: 'Karla', sans-serif;
     width: 80%;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 17px;
 }
 
+.skills-section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 95vw;
+    margin-bottom: 5vh;
+}
+.skills-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35vh;
+    width: 24vw;
+}
+.skills-div h3 {
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.skills-div p {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 1.8vw;
+    line-height: 2.4vw;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1050px) {
+    .skills-div h3 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .skills-div h3 {
+        font-size: 19px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
+    .about-page {
+        margin-top: 7vh;
+    }
     .about-blurb {
-        text-align: center;
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .skills-div h3 {
+        font-size: 17px;
+    }
+    .skills-div p {
+        font-size: 13.5px;
+        line-height: 16px;
     }
 }

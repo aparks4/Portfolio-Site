@@ -17,7 +17,7 @@
 .contact-card {
     width: 15vw;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: 500;
     font-family: 'Karla', sans-serif;
     display: flex;
     flex-direction: column;

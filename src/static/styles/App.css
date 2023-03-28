@@ -30,11 +30,10 @@ body {
   position: absolute;
   top: 0;
   margin-bottom: 5vh;
-  color: linen;
   font-family: 'Karla', sans-serif;
 }
 .web-nav a {
-  color: var(--lime);
+  color: black;
   font-size: 23px;
   text-decoration: none;
   margin-right: 20px;

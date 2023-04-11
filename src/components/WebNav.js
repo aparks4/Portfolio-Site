@@ -22,7 +22,7 @@ export const WebNav = () => {
                         <Link key={link.to} to={link.to}>{link.label}</Link>
                     ): null;
                 })}
-                <Link to={pdf} target="_blank" rel="noreferrer">resume</Link>
+                <a href={pdf} target="_blank" rel="noreferrer">resume</a>
 
             </nav>
         

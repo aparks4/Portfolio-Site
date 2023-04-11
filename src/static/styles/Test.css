@@ -1,11 +1,15 @@
 .test-page {
     margin-top: 10vh;
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 .lite-bg {
     background-color: antiquewhite;
-    height: 40vh;
-    width: 100%;
-    position: absolute;
+    height: 70vh;
     bottom: 0;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
@@ -14,4 +18,19 @@
     align-items: center;
     justify-content: space-evenly;
     color: black;
+}
+.card {
+    height: 45vh;
+    width: 40vw;
+    border: solid;
+}
+.link {
+    border: solid;
+    width: 10%;
+    border-radius: 10px;
+}
+.project-image {
+    border: solid;
+    height: 45%;
+    width: 90%;
 }
